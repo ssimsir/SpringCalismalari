@@ -8,7 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Cizim {
 	public static void main(String[] args) {
 		
-		ApplicationContext context = new ClassPathXmlApplicationContext(new String[] {"spring.xml"});
+		ApplicationContext context = new ClassPathXmlApplicationContext(new String[] {"./src/spring.xml"});
 
 		BeanFactory beanFactory = context;
 		
